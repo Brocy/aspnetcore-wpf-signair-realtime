@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealtimeSurvey", "RealtimeSurvey.csproj", "{E4E5BF86-AE03-4809-AB04-F17B65EECF1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealtimeSurvey", "RealtimeSurvey.csproj", "{E4E5BF86-AE03-4809-AB04-F17B65EECF1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealtimeSurvey.Wpf", "..\RealtimeSurvey.Wpf\RealtimeSurvey.Wpf.csproj", "{35744C9F-F20A-4C1D-8974-30B34CAF479A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealtimeSurvey.Core", "..\RealtimeSurvey.Core\RealtimeSurvey.Core.csproj", "{F02164F7-B667-43ED-BC90-3ADC9349E1D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{E4E5BF86-AE03-4809-AB04-F17B65EECF1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4E5BF86-AE03-4809-AB04-F17B65EECF1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4E5BF86-AE03-4809-AB04-F17B65EECF1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35744C9F-F20A-4C1D-8974-30B34CAF479A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35744C9F-F20A-4C1D-8974-30B34CAF479A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35744C9F-F20A-4C1D-8974-30B34CAF479A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35744C9F-F20A-4C1D-8974-30B34CAF479A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F02164F7-B667-43ED-BC90-3ADC9349E1D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F02164F7-B667-43ED-BC90-3ADC9349E1D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F02164F7-B667-43ED-BC90-3ADC9349E1D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F02164F7-B667-43ED-BC90-3ADC9349E1D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
